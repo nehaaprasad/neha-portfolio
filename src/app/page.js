@@ -457,104 +457,137 @@ export default function Home() {
         <section className="experience-section" id="experience">
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="experience-list">
-            <div className="experience-item">
-              <h3 className="experience-title-styled">Intern</h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://keploy.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  Keploy
-                </a>
-                <Image
-                  src="/lg1.png"
-                  alt="Keploy logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Enhanced open-source automated test generation by improving
-                test-case generation, mocking capabilities, and CI/CD
-                integration
-                <br />• Drove community engagement through bug fixes,
-                documentation, developer meetups, and ongoing support.
-              </p>
-              <div className="experience-timeline">May/2025 - July/2025</div>
-            </div>
+            
+            
+            
+        
+
+
 
             <div className="experience-item">
-              <h3 className="experience-title-styled">
-                Freelance & Contract Developer
-              </h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://www.upwork.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  Upwork & Independent Clients
-                </a>
-                <Image
-                  src="/wo.png"
-                  alt="Upwork logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Delivered 5+ projects for clients in e-commerce, SaaS, and AI
-                domains on Upwork and via direct contracts
-                <br />• Built responsive web applications with React, Next.js,
-                Tailwind CSS, and Node.js, integrating features such as
-                payments, dashboards, and APIs
-                <br />• Improved client workflows by up to 70% through custom
-                dashboards and automation solutions
-                <br />• Earned 5-star reviews and repeat contracts by delivering
-                projects on time and exceeding client expectations
-              </p>
-              <div className="experience-timeline">2023 – 2025</div>
-            </div>
+             
+             
+             <h3 className="experience-title-styled">Open Source Community Growth Contributor</h3>
+            
+            
+            
+             <h4 className="experience-company-container">
+               <a
+                 href="https://keploy.io/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="experience-company-link"
+               >
+                 Warestack, Inc.
+               </a>
+               <Image
+                 src="/lg1.png"
+                 alt="Keploy logo"
+                 width={20}
+                 height={20}
+                 className="company-logo"
+               />
+             </h4>
 
-            <div className="experience-item">
-              <h3 className="experience-title-styled">
-                Full Stack Developer Intern
-              </h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://www.linkedin.com/company/aievrything/posts/?feedView=all"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  Travana
-                </a>
-                <Image
-                  src="/lg.png"
-                  alt="Travana logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
 
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Built a voice-powered travel booking platform at Travana AI
-                using React, Next.js, Node.js, and Python enabling users to
-                search and book trips using natural voice commands, real-time
-                NLU, and smart AI recommendations.
-              </p>
-              <div className="experience-timeline">Feb/2025 - May/2025</div>
-            </div>
+             <div className="experience-gap"></div>
+             <p className="experience-description">
+               • Reaching out to active GitHub organizations and introducing Watchflow to open-source communities where it can be adopted effectively.
+               <br />• Supporting onboarding for interested organizations and serving as the first point of contact for initial questions and feedback.
+               <br />• Reviewing pull requests and sharing constructive feedback to help improve collaboration and product quality.
+             </p>
+             <div className="experience-timeline">Dec/2025 - Present</div>
+           
+           </div>
+
+
+
+           <div className="experience-item">
+             
+             
+             <h3 className="experience-title-styled"> Software Engineer Intern</h3>
+            
+            
+            
+             <h4 className="experience-company-container">
+               <a
+                 href="https://keploy.io/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="experience-company-link"
+               >
+                 nFront Ventures
+               </a>
+               <Image
+                 src="/nfront.png"
+                 alt="nFront Ventures logo"
+                 width={20}
+                 height={20}
+                 className="company-logo"
+               />
+             </h4>
+
+
+             <div className="experience-gap"></div>
+             <p className="experience-description">
+               • Built and improved features for nFront Academy, a white-labeled platform used by VC funds and their portfolio companies.
+               <br />• Worked closely with the founder on product planning, roadmap decisions, and feature implementation, making sure the platform matched client needs.
+               <br />• Focused on clean, maintainable Next.js code, smooth UI, and scalable frontend development to support future growth.
+             </p>
+             <div className="experience-timeline">Aug/2025 - Jan/2026</div>
+           
+           </div>
+
+
+           <div className="experience-item">
+             
+             
+             <h3 className="experience-title-styled">Intern</h3>
+            
+            
+            
+             <h4 className="experience-company-container">
+               <a
+                 href="https://keploy.io/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="experience-company-link"
+               >
+                 Keploy
+               </a>
+               <Image
+                 src="/lg1.png"
+                 alt="Keploy logo"
+                 width={20}
+                 height={20}
+                 className="company-logo"
+               />
+             </h4>
+
+
+             <div className="experience-gap"></div>
+             <p className="experience-description">
+               •  Enhancements in the open‑source ecosystem for automated test generation from API traffic.
+               <br />• Collaborated closely with the Keploy core team and community contributors to improve test-case generation, mocking capabilities, and coverage analysis for modern APIs.
+               <br />• Implemented and validated new features for deterministic testing, seamless CI/CD integration, and enhanced developer experience.
+               <br />• Identified and resolved bugs, streamlined documentation, and provided ongoing community support to accelerate adoption.
+             </p>
+             <div className="experience-timeline">May/2025 - July/2025</div>
+           
+           </div>
+
+
+
+
+
           </div>
+
+
+
+
+
+
+
         </section>
 
         <section className="chat-section">
