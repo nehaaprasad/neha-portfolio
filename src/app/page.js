@@ -473,7 +473,7 @@ export default function Home() {
             
              <h4 className="experience-company-container">
                <a
-                 href="https://keploy.io/"
+                 href="https://www.warestack.com/"
                  target="_blank"
                  rel="noopener noreferrer"
                  className="experience-company-link"
@@ -481,8 +481,8 @@ export default function Home() {
                  Warestack, Inc.
                </a>
                <Image
-                 src="/lg1.png"
-                 alt="Keploy logo"
+                 src="/warestck.png"
+                 alt="Warestack, Inc. logo"
                  width={20}
                  height={20}
                  className="company-logo"
@@ -511,7 +511,7 @@ export default function Home() {
             
              <h4 className="experience-company-container">
                <a
-                 href="https://keploy.io/"
+                 href="https://nfrontventures.com/"
                  target="_blank"
                  rel="noopener noreferrer"
                  className="experience-company-link"
