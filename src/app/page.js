@@ -251,7 +251,7 @@ export default function Home() {
 
             <div className="social-links">
 
-            <a href="https://github.com/https://github.com/nehaaprasad" className="social-link">
+            <a href="https://github.com/nehaaprasad" className="social-link">
                 <svg
                   width="20"
                   height="20"
