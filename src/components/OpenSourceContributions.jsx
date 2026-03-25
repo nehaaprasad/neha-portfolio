@@ -8,157 +8,189 @@ export default function OpenSourceContributions() {
   const contributions = {
     merged: [
       {
-        repo: "PostHog/posthog",
-        title:
-          "feat(surveys): Enable filtering survey responses by group property",
+        repo: "deepset-ai/haystack-core-integrations",
+        title: "feat(astra): add run_async to AstraEmbeddingRetriever",
         description:
-          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
+          "Adds an async variant for AstraEmbeddingRetriever to avoid blocking the event loop.",
         type: "Feature",
-        date: "2025-07-12",
-        url: "https://github.com/PostHog/posthog/pull/34946",
+        date: "Merged",
+        url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3016",
       },
-
       {
-        repo: "google-gemini/gemini-cli",
-        title: "fix: Clear previous thoughts when starting new prompts",
+        repo: "shadcn-ui/ui",
+        title: "feat: add @ui-layouts registry to directory",
         description:
-          "Fixed bug where previous thoughts persisted when entering new prompts. Added setThought(null) in three places: new prompt start, user cancellation, and error handling.",
-        type: "Bug Fix",
-        date: "2025-07-27",
-        url: "https://github.com/google-gemini/gemini-cli/pull/4966",
+          "Adds the @ui-layouts registry entry to the shadcn/ui directory registry.",
+        type: "Feature",
+        date: "Merged",
+        url: "https://github.com/shadcn-ui/ui/pull/8878",
       },
-
+      {
+        repo: "lancedb/lancedb",
+        title: "fix(node): handle null values in nullable boolean fields",
+        description:
+          "Fixes Node bindings to correctly handle boolean columns when all values are null.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/lancedb/lancedb/pull/2657",
+      },
       {
         repo: "Mintplex-Labs/anything-llm",
         title: "feat: Add Exa as a Search Provider",
         description:
-          "Added Exa as a new search provider option for AnythingLLM agents.",
+          "Introduces Exa as a new search provider option for AnythingLLM agents.",
         type: "Feature",
-        date: "2025-08-04",
-        url: "https://github.com/Mintplex-Labs/anything-llm/issues/4255",
+        date: "Merged",
+        url: "https://github.com/Mintplex-Labs/anything-llm/pull/4258",
       },
-
       {
-        repo: "google-gemini/gemini-cli",
-        title: "fix: adjust slash command menu column width & spacing issues",
+        repo: "mastra-ai/mastra",
+        title: "feat: support Anthropic programmatic tool calling (PTC)",
         description:
-          "Adjusted slash command menu column width and spacing issues.",
-        type: "Bug Fix",
-        date: "2025-07-29",
-        url: "https://github.com/google-gemini/gemini-cli/pull/5797",
-      },
-
-      {
-        repo: "frappe/frappe",
-        title: "feat: auto-expand sidebar on hover ",
-        description:
-          "Implemented auto-expand on hover functionality similar to frappe.io and cloud.io. When the sidebar is collapsed,",
+          "Adds support for Anthropic's programmatic tool calling flow.",
         type: "Feature",
-        date: "2025-08-01",
-        url: "https://github.com/frappe/frappe/pull/33512",
+        date: "Merged",
+        url: "https://github.com/mastra-ai/mastra/pull/12400",
       },
-
-      {
-        repo: "Mintplex-Labs/anything-llm",
-        title: "fix: API export-chats endpoint function import error",
-        description:
-          "Fixed API export-chats endpoint error by correcting function import and call.",
-        type: "Bug Fix",
-        date: "2025-07-29",
-        url: "https://github.com/Mintplex-Labs/anything-llm/pull/4220",
-      },
-
-      {
-        repo: "outline/outline",
-        title: "fix: extract domain from user email in Slack authentication ",
-        description:
-          "Issue: Slack authentication fails with 'Invalid authentication' error when both OIDC and Slack are enabled simultaneously.",
-        type: "Bug Fix",
-        date: "2025-07-27",
-        url: "https://github.com/outline/outline/pull/9742",
-      },
-
       {
         repo: "run-llama/LlamaIndexTS",
         title: "feat: multi-turn image generation support",
         description:
-          "Added image_id parameter to image generation tools for multi-turn support",
+          "Adds image_id support to image generation tools for multi-turn workflows.",
         type: "Feature",
-        date: "2025-07-15",
+        date: "Merged",
         url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
+      },
+      {
+        repo: "calcom/cal.com",
+        title: "fix: dynamic adapter imports not working in self-hosted instances",
+        description:
+          "Fixes adapter imports so integrations work correctly in self-hosted deployments.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/calcom/cal.com/pull/23784",
+      },
+      {
+        repo: "OpenHands/OpenHands",
+        title: "fix selected repo disappearing in pen repository dropdown",
+        description:
+          "Fixes selection persistence so the chosen repo stays visible in the dropdown.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/OpenHands/OpenHands/pull/12702",
       },
 
       {
-        repo: "All PRs Open and Merged Here",
-        title: "Click on the link to see all my PRs",
-        description: "Click on the link to see all my PRs",
-        type: "All PRs",
-
-        url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
+        repo: "vercel/next.js",
+        title: "fix: make RedirectType constant properties literal types",
+        description:
+          "Fixes RedirectType typing so constants are inferred as literal types, improving TS correctness.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/vercel/next.js/pull/88653",
       },
     ],
 
     open: [
       {
-        repo: "PostHog/posthog",
+        repo: "FlowiseAI/Flowise",
         title:
-          "fix: toolbar heatmap scrolling by using real-time scroll listeners instead of timer",
+          "feat: Add sorting to role assigned users table (workspaces asc, users asc)",
         description:
-          "Heatmap overlay doesn't move with scrolling elements - only updates every 100ms via timer, causing lag and misalignment.",
+          "Adds default sorting + sortable headers for role-assigned users (workspaces/users).",
+        type: "Feature",
+        date: "Merged",
+        url: "https://github.com/FlowiseAI/Flowise/pull/5486",
+      },
+
+      {
+        repo: "carbon-design-system/carbon",
+        title:
+          "fix(ai-skeleton): add display properties to fix flex container rendering",
+        description:
+          "Fixes AI skeleton components rendering incorrectly inside flex containers.",
         type: "Bug Fix",
-        date: "2025-08-15",
-        url: "https://github.com/PostHog/posthog/pull/37048",
+        date: "Merged",
+        url: "https://github.com/carbon-design-system/carbon/pull/20756",
+      },
+      {
+        repo: "payloadcms/payload",
+        title: "fix: ungenerated image sizes should not store original URL",
+        description:
+          "Ensures image size URL fields don’t fall back to the original URL when size generation fails.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/payloadcms/payload/pull/15454",
+      },
+
+      {
+        repo: "lancedb/lancedb",
+        title: "fix(node): handle null values in nullable boolean fields",
+        description:
+          "Fixes Node bindings to correctly handle all-null boolean arrays.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/lancedb/lancedb/pull/2657",
+      },
+
+      {
+        repo: "PrefectHQ/prefect",
+        title: "fix: optimize /api/task_runs/count endpoint performance",
+        description:
+          "Improves performance of the task_runs count endpoint for complex filters.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/PrefectHQ/prefect/pull/19548",
+      },
+
+      {
+        repo: "firecrawl/firecrawl",
+        title: "fix: image search field mapping in Python SDK",
+        description:
+          "Fixes field mapping so image search results return expected fields in the Python SDK.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/firecrawl/firecrawl/pull/2244",
+      },
+
+      {
+        repo: "OpenHands/OpenHands",
+        title: "fix: conversation tab state sync across browser tabs",
+        description:
+          "Keeps conversation tab state isolated per conversation, preventing cross-tab state clashes.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/OpenHands/OpenHands/pull/11680",
+      },
+
+      {
+        repo: "generalaction/emdash",
+        title: "fix: make chat and terminal links open reliably in default browser",
+        description:
+          "Ensures markdown/terminal links open reliably using the system default browser.",
+        type: "Bug Fix",
+        date: "Merged",
+        url: "https://github.com/generalaction/emdash/pull/980",
+      },
+
+      {
+        repo: "Budibase/budibase",
+        title: "feat: Add previous step binding for automations",
+        description:
+          "Adds a `previous` binding so automations can reference the prior step output more easily.",
+        type: "Feature",
+        date: "Merged",
+        url: "https://github.com/Budibase/budibase/pull/16970",
       },
 
       {
         repo: "calcom/cal.com",
-        title: "feat: disable recording emails for guests",
+        title: "fix: dynamic adapter imports not working in self-hosted instances",
         description:
-          "A new Cal Video setting disable recording emails for guests lets organizers choose whether guests get recording download emails.",
-        type: "Feature",
-        date: "2025-07-13",
-        url: "https://github.com/calcom/cal.com/pull/22457",
-      },
-      {
-        repo: "elastic/kibana",
-        title:
-          "fix: Show visual cue for cases with existing alert attachments in modal",
-        description:
-          "Add to case modal now shows Already added for cases with the alert to avoid confusion.",
+          "Fixes adapter imports so integrations work correctly in self-hosted deployments.",
         type: "Bug Fix",
-        date: "2025-07-29",
-        url: "https://github.com/elastic/kibana/pull/229991",
-      },
-
-      {
-        repo: "Vercel/ai",
-        title: "fix: fixed the Google Gemini provider's generateObject",
-        description:
-          "generateObject wasn't working with Gemini models - type validation was failing.",
-        type: "Bug Fix",
-        date: "2025-07-15",
-        url: "https://github.com/vercel/ai/pull/7342",
-      },
-
-      {
-        repo: "supabase/supabase",
-        title: "fix: Allow auth config changes with hooks on Free/Pro plans.",
-        description:
-          "Auth config updates now skip hook fields, allowing other settings to be saved without plan restriction errors.",
-        type: "Bug Fix",
-        date: "2025-07-09",
+        date: "Merged",
         url: "https://github.com/supabase/supabase/pull/37070",
-      },
-
-      {
-        repo: "google-gemini/gemini-cli",
-        title:
-          "fix: keep command help text visible when full command name is typed",
-        description:
-          "his PR fixes a UX issue where command help text disappears when typing the full command name. Previously, typing /bu ",
-        type: "Bug Fix",
-        date: "2025-07-18",
-        url: "https://github.com/google-gemini/gemini-cli/pull/4375",
       },
 
       {
@@ -166,8 +198,7 @@ export default function OpenSourceContributions() {
         title: "Click on the link to see all my PRs",
         description: "Click on the link to see all my PRs",
         type: "All PRs",
-
-        url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
+        url: "https://github.com/nehaaprasad/neha-portfolio",
       },
     ],
   };
