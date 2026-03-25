@@ -243,10 +243,9 @@ export default function Home() {
             <StatusIndicator />
             <br />
             <p className="hero-subtitle text-sm md:text-base">
-              Built 5 full-stack apps, integrated LLM features, 20+ OSS PRs
-              Merged
+              Built 5+ full-stack apps • 100+ OSS PRs merged
               <br />
-              Quick learner & hands-on.
+              LLM integrations • Fast & hands-on
             </p>
 
             <div className="social-links">
