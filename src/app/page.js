@@ -53,7 +53,7 @@ export default function Home() {
         "CrTk is an AI-driven mental health app with real-time therapy, mood tracking, and crisis support—built for privacy, empathy, and scale.",
       image: "/care.png",
       liveLink: "https://caretalk-agent.vercel.app/",
-      repoLink: "https://github.com/naaa760/caretalk-agent",
+      repoLink: "https://github.com/nehaaprasad/caretalk-agent",
       techStack: [
         "React",
         "Next.js",
@@ -72,7 +72,7 @@ export default function Home() {
         "Real‑time audio‑classification web app using a PyTorch CNN model served via FastAPI in a React/Tailwind frontend.",
       image: "/aud.png",
       liveLink: "https://heariffy-byu8.vercel.app/",
-      repoLink: "https://github.com/naaa760/heariffy",
+      repoLink: "https://github.com/nehaaprasad/heariffy",
       techStack: [
         "React",
         "Next.js",
@@ -89,7 +89,7 @@ export default function Home() {
         "AI Site Builder that instantly generates business websites using React, Next.js & Express.",
       image: "/eon.png",
       liveLink: "https://eonlogic-mk8l.vercel.app/",
-      repoLink: "https://github.com/naaa760/eonlogic",
+      repoLink: "https://github.com/nehaaprasad/eonlogic",
       techStack: ["React", "Next.js", "Node.js", "Express", "PostgreSql"],
     },
 
@@ -99,7 +99,7 @@ export default function Home() {
         "AI‑driven tutoring platform with personalized voice tutors, built on React, Next.js & Supabase.",
       image: "/lms.png",
       liveLink: "https://lms-app-navy.vercel.app/",
-      repoLink: "https://github.com/naaa760/lms-app",
+      repoLink: "https://github.com/nehaaprasad/lms-app",
       techStack: [
         "React",
         "Next.js",
@@ -118,7 +118,7 @@ export default function Home() {
         "Biotech tool for gene lookup and AI‑powered harmful DNA‑variant prediction via FastAPI & React.",
       image: "/evo.png",
       liveLink: "https://evo2-sage.vercel.app/",
-      repoLink: "https://github.com/naaa760/evo2",
+      repoLink: "https://github.com/nehaaprasad/evo2",
       techStack: [
         "React",
         "Next.js",
@@ -138,7 +138,7 @@ export default function Home() {
 
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
-      repoLink: "https://github.com/naaa760/local-business-finder-app",
+      repoLink: "https://github.com/nehaaprasad/local-business-finder-app",
       techStack: [
         "React",
         "Next.js",
@@ -156,7 +156,7 @@ export default function Home() {
         "AI‑powered content platform built with Next.js & Tailwind for interactive note‑taking and tutorials.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
-      repoLink: "https://github.com/naaa760/jirnov",
+      repoLink: "https://github.com/nehaaprasad/jirnov",
       techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
     },
 
@@ -168,7 +168,7 @@ export default function Home() {
       liveLink:
         "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
       repoLink:
-        "https://github.com/naaa760/mern-video-calling-realtime-chat-app-social-app",
+        "https://github.com/nehaaprasad/mern-video-calling-realtime-chat-app-social-app",
       techStack: [
         "React",
         "Node.js",
@@ -187,7 +187,7 @@ export default function Home() {
       liveLink:
         "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
       repoLink:
-        "https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent",
+        "https://github.com/nehaaprasad/interview-platform-with-a-real-time-ai-voice-agent",
       techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
     },
 
@@ -197,7 +197,7 @@ export default function Home() {
         "Unified podcast platform offering personalized discovery for listeners and community‑driven growth tools for creators.",
       image: "/i6.png",
       liveLink: "https://mutli-app.vercel.app/",
-      repoLink: "https://github.com/naaa760/mutli-app",
+      repoLink: "https://github.com/nehaaprasad/mutli-app",
       techStack: ["Next.js", "TypeScript", "React", "Convex", "Clerk"],
     },
   ];

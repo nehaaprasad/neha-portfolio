@@ -310,7 +310,7 @@ export default function OpenSourceContributions() {
         </p>
         <div className="cta-buttons">
           <a
-            href="https://github.com/naaa760"
+            href="https://github.com/nehaaprasad"
             className="cta-button primary"
             target="_blank"
             rel="noopener noreferrer"
