@@ -219,16 +219,8 @@ export default function OpenSourceContributions() {
 
         <div className="contributions-stats">
           <div className="stat-item">
-            <div className="stat-number">50+</div>
-            <div className="stat-label">Total PRs</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-number">25+</div>
-            <div className="stat-label">Repositories</div>
-          </div>
-          <div className="stat-item">
-            <div className="stat-number">20+</div>
-            <div className="stat-label">Merged</div>
+            <div className="stat-number">150</div>
+            <div className="stat-label">PR merged</div>
           </div>
         </div>
       </div>
