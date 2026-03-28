@@ -227,17 +227,7 @@ export default function Home() {
         </header>
 
         <section className="hero">
-          <div className="profile-image-container">
-            <Image
-              src="/user.png"
-              alt="Neha"
-              className="profile-image"
-              width={200}
-              height={200}
-              priority
-            />
-            <div className="profile-scan"></div>
-          </div>
+         
           <div className="hero-content">
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
@@ -345,8 +335,7 @@ export default function Home() {
               Distance(online) 2021-2025(June)
             </div>
             <div className="about-summary">
-              I&apos;m passionate about deep‑tech and entrepreneurship building
-              products that make an impact.
+              I focus on doing the work and getting better with every iteration.
               <br />
               <br />
               tldr; learnt by contributing around on the internet and building
