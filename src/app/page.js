@@ -8,6 +8,7 @@ import { useEffect, useRef } from "react";
 import ProjectsSection from "@/components/ProjectsSection";
 import StatusIndicator from "@/components/StatusIndicator";
 import OpenSourceContributions from "@/components/OpenSourceContributions";
+import PrRecognitionGallery from "@/components/PrRecognitionGallery";
 
 export default function Home() {
   const pathRef = useRef(null);
@@ -220,6 +221,9 @@ export default function Home() {
             <Link href="#open-source" className="nav-link">
               Open Source
             </Link>
+            <Link href="#recognition" className="nav-link">
+              Recognition
+            </Link>
             <Link href="#experience" className="nav-link">
               Experience
             </Link>
@@ -227,7 +231,17 @@ export default function Home() {
         </header>
 
         <section className="hero">
-         
+          <div className="profile-image-container">
+            <Image
+              src="/user.png"
+              alt="Neha"
+              className="profile-image"
+              width={200}
+              height={200}
+              priority
+            />
+            <div className="profile-scan"></div>
+          </div>
           <div className="hero-content">
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
@@ -440,6 +454,11 @@ export default function Home() {
         <section className="open-source-section" id="open-source">
           <h2 className="section-title">OPEN SOURCE CONTRIBUTIONS</h2>
           <OpenSourceContributions />
+        </section>
+
+        <section className="recognition-section" id="recognition">
+          <h2 className="section-title">RECOGNITION</h2>
+          <PrRecognitionGallery />
         </section>
 
         <section className="experience-section" id="experience">
