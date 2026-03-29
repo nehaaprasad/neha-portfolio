@@ -215,11 +215,11 @@ export default function Home() {
             <Link href="#tech-stack" className="nav-link">
               Stack
             </Link>
-            <Link href="#projects" className="nav-link">
-              Projects
-            </Link>
             <Link href="#open-source" className="nav-link">
               Open Source
+            </Link>
+            <Link href="#projects" className="nav-link">
+              Projects
             </Link>
             <Link href="#recognition" className="nav-link">
               Recognition
@@ -231,17 +231,6 @@ export default function Home() {
         </header>
 
         <section className="hero">
-          <div className="profile-image-container">
-            <Image
-              src="/user.png"
-              alt="Neha"
-              className="profile-image"
-              width={200}
-              height={200}
-              priority
-            />
-            <div className="profile-scan"></div>
-          </div>
           <div className="hero-content">
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
@@ -449,12 +438,12 @@ export default function Home() {
           </div>
         </section>
 
-        <ProjectsSection projects={projects} />
-
         <section className="open-source-section" id="open-source">
           <h2 className="section-title">OPEN SOURCE CONTRIBUTIONS</h2>
           <OpenSourceContributions />
         </section>
+
+        <ProjectsSection projects={projects} />
 
         <section className="recognition-section" id="recognition">
           <h2 className="section-title">RECOGNITION</h2>
