@@ -198,7 +198,7 @@ export default function OpenSourceContributions() {
         title: "Click on the link to see all my PRs",
         description: "Click on the link to see all my PRs",
         type: "All PRs",
-        url: "https://github.com/nehaaprasad/neha-portfolio",
+        url: "https://github.com/nehaaprasad",
       },
     ],
   };
