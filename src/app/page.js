@@ -49,6 +49,23 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "CodeTrust",
+      description:
+        "AI-powered tool that analyzes code or pull requests and returns a clear verdict—Safe, Risky, or Block—so developers catch issues early and ship with confidence.",
+      image: "/codetr.png",
+      liveLink: "https://codetrust-lilac.vercel.app",
+      repoLink: "https://github.com/nehaaprasad/codetrust",
+      techStack: [
+        "Python",
+        "Next.js",
+        "AI",
+        "Tailwind",
+        "PostgreSQL",
+        "Redis",
+      ],
+    },
+
+    {
       title: "CareTalk(Agent)",
       description:
         "CrTk is an AI-driven mental health app with real-time therapy, mood tracking, and crisis support—built for privacy, empathy, and scale.",
