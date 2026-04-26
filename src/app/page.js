@@ -252,11 +252,6 @@ export default function Home() {
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
             <br />
-            <p className="hero-subtitle text-sm md:text-base">
-              Built 5+ full-stack apps • 150+ OSS PRs merged
-              <br />
-              LLM integrations • Fast & hands-on
-            </p>
 
             <div className="social-links">
 
@@ -350,10 +345,6 @@ export default function Home() {
         <section className="about-section" id="about">
           <h2 className="section-title">ABOUT</h2>
           <div className="about-content">
-            <div className="about-education">
-              B.Sc in Computer Science | University of the people, California -
-              Distance(online) 2021-2025(June)
-            </div>
             <div className="about-summary">
               I&apos;m a full-stack developer who actually ships.
               <br />
