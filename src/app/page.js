@@ -355,11 +355,23 @@ export default function Home() {
               Distance(online) 2021-2025(June)
             </div>
             <div className="about-summary">
-              I focus on doing the work and getting better with every iteration.
+              I&apos;m a full-stack developer who actually ships.
+              <br />
+              <br />- Built DigiNav AI - an autonomous regulatory co-pilot
+              (incorporation, GST, licenses) in 1 day
+              <br />- Built CodeTrust - AI that reviews code/PRs and gives Safe
+              / Risky / Block verdicts
+              <br />- 150+ merged open-source PRs in production AI frameworks
+              (Mastra, LlamaIndex, LiteLLM, OpenHands, Next.js)
+              <br />- Strong with: Next.js, TypeScript, Python, LLM agents,
+              PostgreSQL, Tailwind, Shadcn
               <br />
               <br />
-              tldr; learnt by contributing around on the internet and building
-              projects.
+              I move fast, communicate clearly, and deliver clean, production
+              code.
+              <br />
+              <br />
+              If you need something built this week, I&apos;m available.
             </div>
           </div>
         </section>
