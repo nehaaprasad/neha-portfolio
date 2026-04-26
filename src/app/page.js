@@ -250,8 +250,11 @@ export default function Home() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
+            <p className="hero-kicker">
+              Full-stack engineer · Next.js / TypeScript · Python · LLM agents ·
+              ships fast
+            </p>
             <StatusIndicator />
-            <br />
 
             <div className="social-links">
 
