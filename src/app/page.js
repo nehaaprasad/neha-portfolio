@@ -461,18 +461,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="open-source-section" id="open-source">
-          <h2 className="section-title">OPEN SOURCE CONTRIBUTIONS</h2>
-          <OpenSourceContributions />
-        </section>
-
-        <ProjectsSection projects={projects} />
-
-        <section className="recognition-section" id="recognition">
-          <h2 className="section-title">RECOGNITION</h2>
-          <PrRecognitionGallery />
-        </section>
-
         <section className="experience-section" id="experience">
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="experience-list">
@@ -607,6 +595,18 @@ export default function Home() {
 
 
 
+        </section>
+
+        <section className="open-source-section" id="open-source">
+          <h2 className="section-title">OPEN SOURCE CONTRIBUTIONS</h2>
+          <OpenSourceContributions />
+        </section>
+
+        <ProjectsSection projects={projects} />
+
+        <section className="recognition-section" id="recognition">
+          <h2 className="section-title">RECOGNITION</h2>
+          <PrRecognitionGallery />
         </section>
 
         <section className="chat-section">
