@@ -7,6 +7,8 @@ import Timer from "@/components/Timer";
 import { useEffect, useRef } from "react";
 import ProjectsSection from "@/components/ProjectsSection";
 import StatusIndicator from "@/components/StatusIndicator";
+import HoverEffects from "@/components/HoverEffects";
+import IntroAnimation from "@/components/IntroAnimation";
 import OpenSourceContributions from "@/components/OpenSourceContributions";
 import PrRecognitionGallery from "@/components/PrRecognitionGallery";
 
@@ -222,6 +224,8 @@ export default function Home() {
 
   return (
     <>
+      <HoverEffects />
+      <IntroAnimation />
       <main className="container">
         <Timer />
         <header className="header">
@@ -609,7 +613,7 @@ export default function Home() {
           <PrRecognitionGallery />
         </section>
 
-        <section className="chat-section">
+        <section className="chat-section" id="contact">
           <div className="chat-container">
             <div className="chat-left">
               <h3>Start here</h3>
