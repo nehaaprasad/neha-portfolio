@@ -67,6 +67,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 30px;
   width: fit-content; /* Make width fit the content */
+  max-width: calc(100vw - 16px); /* never wider than the screen */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -107,6 +108,7 @@ body {
   transition: all 0.3s ease;
   letter-spacing: 0.3px;
   text-align: center;
+  white-space: nowrap; /* "Open Source" was wrapping onto two lines */
 }
 
 .nav-link:hover {
@@ -145,8 +147,9 @@ main.container {
   }
 
   .nav-link {
-    font-size: 0.7rem;
-    padding: 0.2rem 0.4rem;
+    font-size: 0.65rem;
+    padding: 0.2rem 0.3rem;
+    letter-spacing: 0;
   }
 }
 
@@ -158,9 +161,10 @@ main.container {
   margin-bottom: calc(var(--spacing-unit) * 5);
   padding: calc(var(--spacing-unit) * 4) 0;
   min-height: 0;
-  /* Only clip horizontal overflow; vertical was cutting the circular avatar */
-  overflow-x: hidden;
-  overflow-y: visible;
+  /* Must stay visible: overflow-x:hidden turns overflow-y into auto, which
+     clipped the status dropdown and showed a scrollbar. .container already
+     clips horizontal overflow. */
+  overflow: visible;
   width: 100%;
   max-width: 100%;
 }
@@ -1950,6 +1954,7 @@ body::after {
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .timer {
+    position: absolute; /* scrolls away instead of floating over content */
     top: 85px; /* Moved below the header */
     left: 20px;
     padding: 6px 16px; /* Increased horizontal padding */
@@ -2143,12 +2148,14 @@ body::after {
   position: absolute;
   top: calc(100% + 5px);
   left: 0;
-  background: rgba(15, 15, 15, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 20;
+  background: #0f0f12;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 6px;
   padding: 12px;
-  width: 180px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: max-content;
+  max-width: min(320px, 85vw);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   animation: fadeIn 0.2s ease;
 }
 
@@ -2216,7 +2223,14 @@ body::after {
   }
 
   .status-dropdown {
-    width: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: none;
+  }
+
+  .status-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
